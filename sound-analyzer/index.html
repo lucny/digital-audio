@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analýza zvuku s p5.js</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js"></script>
+</head>
+<body>
+    <h1>Vizualizace zvukového spektra a čísla</h1>
+    <p>Zahrajte lokálně uložený zvukový soubor pro zobrazení frekvenční analýzy.</p>
+    
+    <button id="playButton">Přehrát zvuk</button>
+
+    <!-- Místo pro zobrazení číselných údajů -->
+    <div id="data">
+        <p><strong>Dominantní frekvence:</strong> <span id="dominantFreq">-</span> Hz</p>
+        <p><strong>Celková hlasitost (RMS):</strong> <span id="rms">-</span></p>
+    </div>
+
+    <script src="soundAnalysis.js"></script>
+</body>
+</html>
