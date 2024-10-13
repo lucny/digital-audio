@@ -1,0 +1,16 @@
+{
+    "program_change": {"channel": 0, "program": 5},
+    "control_change": [
+      {"controller": 7, "value": 100, "channel": 0},
+      {"controller": 1, "value": 64, "channel": 0}
+    ],
+    "pitch_bend": {"channel": 0, "value": 5000},
+    "aftertouch": {"channel": 0, "note": 60, "value": 50},
+    "notes": [
+      {"note": 60, "velocity": 64, "duration": 0.5, "channel": 0},
+      {"note": 62, "velocity": 64, "duration": 0.5, "channel": 0},
+      {"note": 64, "velocity": 64, "duration": 0.5, "channel": 0},
+      {"note": 65, "velocity": 64, "duration": 0.75, "channel": 0}
+    ]
+  }
+  

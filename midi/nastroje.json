@@ -1,0 +1,42 @@
+{
+    "program_change": [
+      {"channel": 0, "program": 5},  
+      {"channel": 1, "program": 10},   
+      {"channel": 2, "program": 20}     
+    ],
+    "control_change": [
+      {"controller": 7, "value": 100, "channel": 0},
+      {"controller": 1, "value": 64, "channel": 0},  
+      {"controller": 7, "value": 80, "channel": 1}, 
+      {"controller": 1, "value": 80, "channel": 1},  
+      {"controller": 7, "value": 90, "channel": 2}, 
+      {"controller": 1, "value": 70, "channel": 2}   
+    ],
+    "pitch_bend": [
+      {"channel": 0, "value": 5000}, 
+      {"channel": 1, "value": 3000}, 
+      {"channel": 2, "value": 7000}  
+    ],
+    "aftertouch": [
+      {"channel": 0, "note": 60, "value": 50}, 
+      {"channel": 1, "note": 62, "value": 60}, 
+      {"channel": 2, "note": 64, "value": 70}  
+    ],
+    "notes": [
+      {"note": 60, "velocity": 64, "duration": 0.5, "channel": 0},  
+      {"note": 62, "velocity": 64, "duration": 0.5, "channel": 0},
+      {"note": 64, "velocity": 64, "duration": 0.5, "channel": 0},
+      {"note": 65, "velocity": 64, "duration": 0.75, "channel": 0},
+      
+      {"note": 72, "velocity": 70, "duration": 0.5, "channel": 1}, 
+      {"note": 74, "velocity": 70, "duration": 0.5, "channel": 1},
+      {"note": 76, "velocity": 70, "duration": 0.5, "channel": 1},
+      {"note": 77, "velocity": 70, "duration": 0.75, "channel": 1},
+      
+      {"note": 48, "velocity": 80, "duration": 0.5, "channel": 2},  
+      {"note": 50, "velocity": 80, "duration": 0.5, "channel": 2},
+      {"note": 52, "velocity": 80, "duration": 0.5, "channel": 2},
+      {"note": 53, "velocity": 80, "duration": 0.75, "channel": 2}
+    ]
+  }
+  
